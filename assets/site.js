@@ -330,9 +330,9 @@
           .then(function (r) { return r.json().catch(function () { return { ok: false }; }); });
       }).then(function (res) {
         if (res && res.ok) success(!!res.demo, name, mail);
-        else status.textContent = (res && res.message) || 'Senden fehlgeschlagen. Bitte schreiben Sie uns an info@hbbs-kraft.de oder rufen Sie an: +49 163 1443778.';
+        else status.textContent = (res && res.message) || 'Senden fehlgeschlagen. Bitte schreiben Sie uns an info@hbbs-kraft.de oder rufen Sie an: +49 1590 7948177.';
       }).catch(function () {
-        status.textContent = 'Senden fehlgeschlagen. Bitte schreiben Sie uns an info@hbbs-kraft.de oder rufen Sie an: +49 163 1443778.';
+        status.textContent = 'Senden fehlgeschlagen. Bitte schreiben Sie uns an info@hbbs-kraft.de oder rufen Sie an: +49 1590 7948177.';
       }).then(function () { btn.disabled = false; btn.textContent = BTN_TXT; });
     });
     $('[data-reset]', okBox).addEventListener('click', function () {
