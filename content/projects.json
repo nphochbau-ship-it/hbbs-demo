@@ -1,19 +1,6 @@
 {
-  "updated": "2026-10-15T09:34:18.904Z",
+  "updated": null,
   "items": [
-    {
-      "id": "test-projekt-bitte-ignorieren-dtzs",
-      "title": "TEST Projekt bitte ignorieren",
-      "location": "Mannheim",
-      "date": "2026-10-15",
-      "category": "",
-      "description": "Automatischer Test.",
-      "images": [
-        "uploads/2026/10/mv9cdta9mp2g.webp",
-        "uploads/2026/10/mv9cdtdxu9h8.webp"
-      ],
-      "example": false
-    },
     {
       "id": "kernbohrungen-tiefgarage",
       "title": "Kernbohrungen Tiefgarage",
