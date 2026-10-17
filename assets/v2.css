@@ -183,6 +183,7 @@ input[type=checkbox]{width:20px;height:20px;flex:none}
   /* tap targets >= 44px, >= 8px apart (P2.9) */
   .more,.back,.contact a,.ft nav a,.hd nav a{display:inline-flex;align-items:center;min-height:44px}
   .ft nav{gap:8px 20px}
+  .ft .dots3{min-width:44px;justify-content:center}
   .hd .in>a:first-child{display:flex;align-items:center;min-height:44px}
   .burger{width:44px;height:44px}
   .faq summary{min-height:44px;align-items:center}
