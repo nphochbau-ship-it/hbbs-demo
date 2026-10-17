@@ -1,53 +1,75 @@
 {
-  "updated": null,
+  "updated": "2026-10-17T09:30:00+02:00",
   "items": [
     {
-      "src": "assets/img/v2/p26.jpg",
-      "alt": "Baustellenfoto (Beispiel)"
+      "src": "assets/img/hbbs/hbbs-01-1200.webp",
+      "srcset": "assets/img/hbbs/hbbs-01-480.webp 480w, assets/img/hbbs/hbbs-01-960.webp 960w, assets/img/hbbs/hbbs-01-1200.webp 1200w",
+      "w": 1200,
+      "h": 1600,
+      "alt": "Kernbohrungen in einer Betonwand"
     },
     {
-      "src": "assets/img/v2/p00.jpg",
-      "alt": "Baustellenfoto (Beispiel)"
+      "src": "assets/img/hbbs/hbbs-09-1200.webp",
+      "srcset": "assets/img/hbbs/hbbs-09-480.webp 480w, assets/img/hbbs/hbbs-09-960.webp 960w, assets/img/hbbs/hbbs-09-1200.webp 1200w",
+      "w": 1200,
+      "h": 1600,
+      "alt": "Bohrkern aus einer Kernbohrung wird vermessen"
     },
     {
-      "src": "assets/img/v2/p13.jpg",
-      "alt": "Baustellenfoto (Beispiel)"
+      "src": "assets/img/hbbs/hbbs-04-900.webp",
+      "srcset": "assets/img/hbbs/hbbs-04-480.webp 480w, assets/img/hbbs/hbbs-04-900.webp 900w",
+      "w": 900,
+      "h": 1600,
+      "alt": "Wandsäge vor einer Betonwand mit gesägten Öffnungen"
     },
     {
-      "src": "assets/img/v2/p08.jpg",
-      "alt": "Baustellenfoto (Beispiel)"
+      "src": "assets/img/hbbs/hbbs-05-1200.webp",
+      "srcset": "assets/img/hbbs/hbbs-05-480.webp 480w, assets/img/hbbs/hbbs-05-960.webp 960w, assets/img/hbbs/hbbs-05-1200.webp 1200w",
+      "w": 1200,
+      "h": 1600,
+      "alt": "Kernbohrgerät an einer Wand mit Spritzschutz"
     },
     {
-      "src": "assets/img/v2/p15.jpg",
-      "alt": "Baustellenfoto (Beispiel)"
+      "src": "assets/img/hbbs/hbbs-08-1200.webp",
+      "srcset": "assets/img/hbbs/hbbs-08-480.webp 480w, assets/img/hbbs/hbbs-08-960.webp 960w, assets/img/hbbs/hbbs-08-1200.webp 1200w",
+      "w": 1200,
+      "h": 1600,
+      "alt": "Gesägte Wandöffnung in Beton"
     },
     {
-      "src": "assets/img/v2/p19.jpg",
-      "alt": "Baustellenfoto (Beispiel)"
+      "src": "assets/img/hbbs/hbbs-02-900.webp",
+      "srcset": "assets/img/hbbs/hbbs-02-480.webp 480w, assets/img/hbbs/hbbs-02-900.webp 900w",
+      "w": 900,
+      "h": 1600,
+      "alt": "Wandsäge im Einsatz auf der Baustelle"
     },
     {
-      "src": "assets/img/v2/p14.jpg",
-      "alt": "Baustellenfoto (Beispiel)"
+      "src": "assets/img/hbbs/hbbs-06-900.webp",
+      "srcset": "assets/img/hbbs/hbbs-06-480.webp 480w, assets/img/hbbs/hbbs-06-900.webp 900w",
+      "w": 900,
+      "h": 1600,
+      "alt": "Sägearbeiten an einer Wand mit Spritzschutz"
     },
     {
-      "src": "assets/img/v2/p07.jpg",
-      "alt": "Baustellenfoto (Beispiel)"
+      "src": "assets/img/hbbs/hbbs-10-900.webp",
+      "srcset": "assets/img/hbbs/hbbs-10-480.webp 480w, assets/img/hbbs/hbbs-10-900.webp 900w",
+      "w": 900,
+      "h": 1600,
+      "alt": "Kernbohrung im Betonboden"
     },
     {
-      "src": "assets/img/v2/p21.jpg",
-      "alt": "Baustellenfoto (Beispiel)"
+      "src": "assets/img/hbbs/hbbs-07-900.webp",
+      "srcset": "assets/img/hbbs/hbbs-07-480.webp 480w, assets/img/hbbs/hbbs-07-900.webp 900w",
+      "w": 900,
+      "h": 1600,
+      "alt": "Kernbohrgerät auf der Baustelle"
     },
     {
-      "src": "assets/img/v2/p03.jpg",
-      "alt": "Baustellenfoto (Beispiel)"
-    },
-    {
-      "src": "assets/img/v2/p20.jpg",
-      "alt": "Baustellenfoto (Beispiel)"
-    },
-    {
-      "src": "assets/img/v2/p11.jpg",
-      "alt": "Baustellenfoto (Beispiel)"
+      "src": "assets/img/hbbs/hbbs-03-1600.webp",
+      "srcset": "assets/img/hbbs/hbbs-03-480.webp 480w, assets/img/hbbs/hbbs-03-960.webp 960w, assets/img/hbbs/hbbs-03-1600.webp 1600w",
+      "w": 1600,
+      "h": 900,
+      "alt": "Mitarbeiter von HBBS Kraft bei Bohrarbeiten im Rohbau"
     }
   ]
 }

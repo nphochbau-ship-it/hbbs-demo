@@ -1,8 +1,9 @@
 {
-  "updated": null,
+  "updated": "2026-10-17T09:30:00+02:00",
   "active": true,
   "pct": 10,
   "title": "Angebot der Woche",
-  "text": "10 % Rabatt auf den gesamten Auftrag – für alle Anfragen, die diese Woche über diesen Link bei uns eingehen.",
-  "validUntil": ""
+  "text": "10 % Rabatt auf den gesamten Auftrag – für alle Neuaufträge, die im Aktionszeitraum über diese Website bei uns angefragt werden.",
+  "validFrom": "2026-10-17",
+  "validUntil": "2026-10-31"
 }

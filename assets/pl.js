@@ -2,7 +2,7 @@
   /* =============================== Preisliste form =============================== */
   // No backend on static hosting: the form opens a prefilled e-mail or WhatsApp message to HBBS Kraft,
   // which the visitor sends themselves. Nothing is sent to this server.
-  var MAIL = 'info@hbbs-kraft.de', WA = '4915907948177';
+  var MAIL = 'info@hbbs-kraft-gmbh.de', WA = '4915907948177';
   var form = $('#preisliste-form');
   if (form) {
     var okBox = $('#pl-success'), status = $('.form-status', form), t0 = Date.now(), via = 'mail';

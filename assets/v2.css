@@ -152,3 +152,45 @@ h3{font-size:22px;letter-spacing:-.02em;line-height:1.15}
 @keyframes ld-bar{to{transform:scaleX(1)}}
 @keyframes spin{to{transform:rotate(360deg)}}
 @media (min-width:720px){.ld-stage{width:240px;height:240px}.ld-brand img,.ld-bar{width:260px}}
+/* ============ Fixliste 17.10.2026 ============ */
+/* hero slides as <img> (srcset); renders like the former background-size:cover */
+.hero .sl img{position:absolute;inset:0;width:100%;height:100%;max-width:none;object-fit:cover;object-position:center}
+.gal img{height:auto}
+/* service grid: Beratung spans the full last row */
+.bc.w6{grid-column:1/-1}
+/* bug fixes (P2.11) */
+.tag{width:auto;display:inline-block;align-self:flex-start}
+input[type=checkbox]{width:20px;height:20px;flex:none}
+.form .consent input[type=checkbox]{width:20px;height:20px;padding:0;margin:1px 0 0;flex:none}
+.form .consent{align-items:flex-start}
+/* offer period + projects placeholder */
+.deal .period{color:#fff;font-weight:600;margin-top:14px}
+.soon{margin-top:28px;font-weight:600;color:var(--mut)}
+/* ---- mobile & tablet only (desktop >=1024px unchanged) ---- */
+@media(max-width:1023.98px){
+  .sec{padding:64px 0}
+  #moeglich{display:none}
+  .bento{margin-top:32px}
+  .bc,.bc.w3,.bc.w4,.bc.w6{min-height:260px}
+  .bc.txt{min-height:0}
+  .bc p{font-size:16px}
+  .eb,.tag,.contact span{font-size:12px}
+  .deal small,.form .fine,.form .form-status{font-size:13px}
+  .form .consent{font-size:14px}
+  .ft{padding-top:72px}.ft .row{font-size:14px;margin-top:48px}
+  .gal{columns:2;column-gap:10px;margin-top:28px}.gal figure{margin-bottom:10px;border-radius:14px}
+  .deal{padding:30px 24px;gap:20px}
+  /* tap targets >= 44px, >= 8px apart (P2.9) */
+  .more,.back,.contact a,.ft nav a,.hd nav a{display:inline-flex;align-items:center;min-height:44px}
+  .ft nav{gap:8px 20px}
+  .hd .in>a:first-child{display:flex;align-items:center;min-height:44px}
+  .burger{width:44px;height:44px}
+  .faq summary{min-height:44px;align-items:center}
+  .consent a,.form .fine a,.legal p a{display:inline-block;padding:12px 0;margin:-12px 0}
+  .cta .btn{min-height:48px}
+  /* WhatsApp button (P2.12) */
+  .wa{width:52px;height:52px;right:14px;bottom:calc(14px + env(safe-area-inset-bottom));transition:opacity .25s,transform .25s}
+  .wa.off{opacity:0;pointer-events:none;transform:scale(.85)}
+  .top{right:17px;bottom:calc(78px + env(safe-area-inset-bottom))}
+  body{padding-bottom:env(safe-area-inset-bottom)}
+}
